@@ -13,6 +13,9 @@ git config --list
 	bring all the file to staging area
 	*. git add filename
 
+*git restore --staged file_name
+	it will unstage the file
+
 *. git commit -m "Initial commit"
 	if we right git commit it will open an editor to avoid use -m
 
@@ -20,6 +23,10 @@ git config --list
 	it gives all the commit
 	- git log -p 
 		it will show what are the changes along with the name
+
+	*. git log --stat
+		it display changes in simple way
+
 
 *. rm -rf .git
 	will delete the repository
@@ -51,4 +58,6 @@ git config --list
 
 *. git rm --cached filename
 	it will untrack the file 
+
+
 
