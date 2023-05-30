@@ -1,0 +1,51 @@
+git config --list
+
+*. git config --global user.name "Giri"	
+	it adds the name
+
+*. git status
+	to check status in git repository
+
+*. git init
+	it will make the folder to git repository
+
+*. git add --a
+	bring all the file to staging area
+	*. git add filename
+
+*. git commit -m "Initial commit"
+	if we right git commit it will open an editor to avoid use -m
+
+*. git log
+	it gives all the commit
+
+*. rm -rf .git
+	will delete the repository
+
+*. git clone LINK_OF_REPOSITORY
+	will pull the data from git repository 
+
+*. touch error.log
+	-here error.log is the file name 
+	-it will create a file
+
+*. touch .gitignore 
+	if a add a file name in .gitignore file it will not show that file to add to staging
+
+*. git diff
+	compares working directory with staging area 
+
+*. git diff --staged 
+	it will show differnce between last commited and current file	
+
+*. git commit -a -m "comment"
+	it will directly commmit all the tracked files without staging
+
+*. git rm filename
+	removes the file
+
+*. git mv file_name new_file_name
+	renames the file
+
+*. git rm --cached filename
+	it will untrack the file
