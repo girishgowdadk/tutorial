@@ -18,6 +18,8 @@ git config --list
 
 *. git log
 	it gives all the commit
+	- git log -p 
+		it will show what are the changes along with the name
 
 *. rm -rf .git
 	will delete the repository
@@ -49,3 +51,4 @@ git config --list
 
 *. git rm --cached filename
 	it will untrack the file
+
