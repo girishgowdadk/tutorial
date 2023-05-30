@@ -50,5 +50,5 @@ git config --list
 	renames the file
 
 *. git rm --cached filename
-	it will untrack the file
+	it will untrack the file 
 
