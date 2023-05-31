@@ -34,6 +34,7 @@ git config --list
 *. git clone LINK_OF_REPOSITORY
 	will pull the data from git repository 
 
+
 *. touch error.log
 	-here error.log is the file name 
 	-it will create a file
@@ -59,5 +60,13 @@ git config --list
 *. git rm --cached filename
 	it will untrack the file 
 
+*. git checkout -- filename
+	it will get the content of the last commited file
+
+	git checkout -f
+		checkouts all the file
 
 
+REMOTE:
+*. git remote add origin https://github.com/girishgowdadk/tutorial.git
+	origin is just like variable holding the url
