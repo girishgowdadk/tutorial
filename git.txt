@@ -105,16 +105,3 @@ BRANCHING:
 
 *. git merge branchname
 	merges the branch then add it, commit it to apply changes
-
-*. git branch --merged
-	shows all the branch that are merged	
-
-*. git branch --no-merged
-
-*. git branch -d branchname
-	it will delete the branch
-	-git branch -D branchname
-		to delete not merged branch
-
-*. git push origin branchname
-	to push the branch
