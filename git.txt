@@ -1,5 +1,10 @@
 git config --list
 
+*.git config --global alias.st status
+	it used to set alias name to the command
+	here is st is slias name status is command
+	now we can use git st
+
 *. git config --global user.name "Giri"	
 	it adds the name
 
@@ -70,3 +75,14 @@ git config --list
 REMOTE:
 *. git remote add origin https://github.com/girishgowdadk/tutorial.git
 	origin is just like variable holding the url
+
+*. git push -u origin master
+	to push content into git account 
+
+
+
+
+to link your github account:
+to create ssh key check google
+
+*. tail ~/.ssh/id_ed25519.pub
