@@ -88,3 +88,17 @@ to link your github account:
 to create ssh key check google
 
 *. tail ~/.ssh/id_ed25519.pub
+
+
+BRANCHING:
+
+*. git checkout -b develop
+	-b means create branch 
+	develop is the name of the branch it can be anything
+
+*. git checkout master
+	master is branch name
+	to change the branch
+
+*. git branch 
+	will get all the branch
