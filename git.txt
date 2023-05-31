@@ -102,3 +102,6 @@ BRANCHING:
 
 *. git branch 
 	will get all the branch
+
+*. git merge branchname
+	merges the branch then add it, commit it to apply changes
