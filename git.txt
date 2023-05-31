@@ -4,6 +4,8 @@ git config --list
 	it used to set alias name to the command
 	here is st is slias name status is command
 	now we can use git st
+	ex 
+		git config --global alias.unstage 'restore --staged--'
 
 *. git config --global user.name "Giri"	
 	it adds the name
